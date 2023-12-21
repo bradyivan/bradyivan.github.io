@@ -199,6 +199,16 @@ p {
     position: relative;
     z-index: 10;
 }
+
+.sobremi button a{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+}
 .sobremi button .overlay{
     position: absolute;
     top: 0;
