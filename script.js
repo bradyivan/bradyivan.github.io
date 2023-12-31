@@ -23,14 +23,17 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("photoshop");
-        habilidades[3].classList.add("wordpress");
-        habilidades[4].classList.add("drupal");
+        habilidades[2].classList.add("basedatos");
+        habilidades[3].classList.add("php");
+        habilidades[4].classList.add("python");
         habilidades[5].classList.add("comunicacion");
         habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
+        habilidades[7].classList.add("resilencia");
+        habilidades[8].classList.add("superacion");
         habilidades[9].classList.add("proyect");
+        habilidades[10].classList.add("espanol");
+        habilidades[11].classList.add("ruso1");
+        habilidades[12].classList.add("ingles");
     }
 }
 
@@ -39,3 +42,16 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+const idioma1 = document.getElementById("english");
+const idioma2 = document.getElementById("ruso");
+const collEnglish = document.getElementsByClassName("english");
+const collSpanish = document.getElementsByClassName("ruso");
+idioma1.addEventListener("click",()=>{        
+    for(let item of collEnglish) item.hidden = false;           
+    for(let item of collSpanish) item.hidden = true;  
+});
+idioma2.addEventListener("click",()=>{        
+    for(let item of collEnglish) item.hidden = true;           
+    for(let item of collSpanish) item.hidden = false;  
+});
