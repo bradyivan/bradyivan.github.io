@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es,">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,17 +12,28 @@
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
-            <div class="logo">
-                <a href="#">Brady</a>
+            <div class="logo">                
+                <div>
+                    <a href="#"> Brady</a>
+                </div>   
+                <button id="english">english</button>            
+                <button id="ruso">ruso</button>             
             </div>
+            
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">
+                        <span class="english">START</span><span class="ruso" hidden>НАЧАЛО</span></a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">
+                        <span class="english">ABOUTH ME</span><span class="ruso" hidden>ОБО МНЕ</span></a></li>
+                    <li><a href="#skills" onclick="seleccionar()">
+                        <span class="english">SKILLS</span><span class="ruso" hidden>НАВЫКИ</span></a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">
+                        <span class="english">CURRICULUM</span><span class="ruso" hidden>РЕЗЮМЕ</span></a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">
+                        <span class="english">PORTFOLIO</span><span class="ruso" hidden>ПРОЕКТЫ</span></a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">
+                        <span class="english">CONTACTS</span><span class="ruso" hidden>КОНТАКТЫ</span></a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -34,69 +45,127 @@
     <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/brady.png" alt="">
+            <div class="contenedor-img-tit">
+                <div class="contenedor-img">
+                    <img src="img/brady.png" alt="">
+                </div>
+                <div class="contenedor-titulos">
+                    <div class="redes">
+                        <a href="https://www.facebook.com/profile.php?id=100013480719637&mibextid=nW3QTL"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/braddy-iv%C3%A1n-jimenez-morales-a26236204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4ybgls2tQNiIaX0WcGpQRQ%3D%3D"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/bradyivan"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div>
+                        <h1><span class="english">Braddy I. Jimenez Morales</span>
+                            <span class="ruso" hidden>Брадди Иван Хименес Моралес</span></h1>
+                        <h2><span class="english">Informatic Engineer/ MSc. Physics</span>
+                            <span class="ruso" hidden>Компютерный Инженер/ Мастер Физика</span></h2>
+                        <h2><span class="english">Fullstack-developer</span>
+                            <span class="ruso" hidden>Веб-программист</span></h2>
+                    </div>
+                </div>
             </div>
-            <h1>Braddy I. Jimenez Morales</h1>
-            <h2>Ingeniero Informatico - FullStack Developer</h2>
-            <div class="redes">
-                <a href="https://www.facebook.com/profile.php?id=100013480719637&mibextid=nW3QTL"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="https://www.linkedin.com/in/braddy-iv%C3%A1n-jimenez-morales-a26236204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4ybgls2tQNiIaX0WcGpQRQ%3D%3D"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
-            </div>
+            
         </div>
     </section>
 
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>Sobre M&iacute;</h2>
-            <p><span>Hola, soy Braddy Ivan Jimenez Morales.</span> Mi primer contacto con la programaci&oacute;n fue a los 12 a&ntilde;os de edad con el lenguaje MSX-Basic y lo 
-            de estudie de manera autodidacta, como un hobby. A la edad de 18 a&ntilde;os ingrese a la Universidad en la carrera de Licenciatura en F&iacute;sica y cinco a&ntilde;os 
-            despues obtuve mi t&iacute;tulo universitario. Posteriormente, tomando en cuenta mis conocimientos, aptitudes y pasion por la programaci&oacute;n, me decid&iacute; a cursar la 
-            carrera de Ingeniero Inform&aacute;tico. </p>
-            <p>Siempre he sentido una fuerte inclinaci&oacute;n hacia a la programaci&oacute;n, desde los 12 a&ntilde;os, incluso durante el periodo universitario como F&iacute;sico. 
-            Mi ejercicio de culminaci&oacute;n de estudios en la licenciatura se denomin&oacute;: "Caracterizaci&oacute;n Termodin&aacute;mica Automatizada de la atmosfera" y fue un 
-            software desarrollado en MatLab para Meteorolog&iacute;a. Durante mi licenciatura incursione en lenguajes como Pascal (con Borland Delphi), C y C++, tambien aprend&iacute; 
-            los fundamentos de html y de JavaScript. En toda mi carrera como docente e investigador me he dedicado tambien a desarrollar software para facilitar mis labores de 
-            investigaci&oacute;n.</p>
-            <p>Mi posterior formaci&oacute;n en Ingenier&iacute;a inform&aacute;tica me permite consolidar y adquirir mis conocimientos en l&oacute;gica computacional, programaci&oacute;n Web y Android, 
-            estructura de datos, Bases de Datos, Ingenier&iacute;a de Software, Metodolog&iacute;as &aacute;giles, Investigaci&oacute;n de Operaciones, etc. Ademas utilic&eacute; 
-            lenguajes como Java, PHP, Python</p>
-            <p>Me caracterizo por ser una persona de mente abierta, independiente, con muchas ganas de aprender. Me he desempe&ntilde;ado desde el a&ntilde;o 2001 hasta el 
-            a&ntilde;o 2023 como profesor universitario, lo cual me ha permitido desarrollar mis habilidades comunicacionales y sociales, y ver la autosuperaci&oacute;n como una 
-            necesidad intrinseca de mi persona. Mi labor investigativa me ha permitido desarrollar proyectos en cooperaci&oacute;n con investigadores de otros pa&iacute;ses y 
-            desarrollar el trabajo en equipo, la resilencia y afrontar los retos como una posibilidad para superarme como profesional, como persona, explorar nuevos horizontes y 
-            aprender.</p>
-            <p>Me considero una persona responsable, honesta, sociable y leal a mi entorno de trabajo. </p>
-
+            <h2><span class="english">About me</span>
+                <span class="ruso" hidden>Обо Мне</span></h2>
+                <div class="english">
+                    <p><span>Hi, I'm Braddy Ivan Jimenez Morales.</span> I am a computer engineer, specialized in 
+                        web-application development with extensive knowledge in front-end and back-end, developed 
+                        through my own projects. I am looking to develop my career, contributing with my skills in 
+                        PHP, NodeJs and Databases to achieve final designs that meet the needs and demands of 
+                        customers.</p>
+                    <p>My teaching experience with a Master's degree in Physics has allowed me to develop my skills 
+                        in analytical reasoning, problem solving, communication and self-preparation. My work as a 
+                        university researcher has given me the possibility to dabble in the development of desktop 
+                        applications for scientific research and experimental data processing in my research work. I 
+                        have experience in programming languages such as C++, Java, JavaScript, Python, etc. My 
+                        participation in international projects has given me experience in working in multidisciplinary 
+                        teams and in different work environments. I have worked as a department head which has 
+                        contributed to improve my experience in conflict resolution and leadership. I consider myself a 
+                        responsible, honest, sociable and loyal person to my work environment.</p>
+                    <p>My degree as a computer engineer has allowed me to expand my horizons and I would like to work in 
+                        a company that promotes my knowledge, my professional growth and to create optimal and efficient 
+                        cutting-edge computer products that contribute to problem solving and customer satisfaction and 
+                        that are a source of pride for my company.</p>
+                </div>
+                <div class="ruso" hidden>
+                    <p><span>Привет, меня зовут Брадди Иван Хименес Моралес.</span> Я компьютерный инженер, специализирующийся на 
+                        разработке веб-приложений, с обширными знаниями в области фронтенда и бэкенда, развитыми 
+                        благодаря моим собственным проектам. Я стремлюсь развивать свою карьеру, используя свои навыки 
+                        в PHP, NodeJs и базах данных для достижения желаемого результата, отвечающего потребностям и 
+                        запросам клиентов.</p>
+                    <p>Мой длительный опыт преподавания и степень магистра по физике позволили мне развить навыки 
+                        аналитического мышления, решения проблем, общения и самоподготовки. Работа в качестве научного 
+                        сотрудника университета дала мне возможность заниматься разработкой десктоп-приложений для 
+                        научных исследований и обработки экспериментальных данных в своей научной работе. У меня есть 
+                        опыт работы с такими языками программирования, как C++, Java, JavaScript, Python и др. Участие 
+                        в международных проектах дало мне опыт работы в междисциплинарных командах и в различных рабочих 
+                        условиях. Я работал руководителем отдела, что способствовало повышению моего опыта в разрешении 
+                        конфликтов и лидерстве, я считаю себя ответственным, честным, коммуникабельным и лояльным к 
+                        своему рабочему окружению человеком.</p>
+                    <p>Мой диплом компьютерного инженера позволила мне расширить свой кругозор, и я хотел бы работать 
+                        в компании, которая способствует расширению моих знаний, профессиональному росту и созданию 
+                        оптимальных и эффективных современных компьютерных продуктов, способствующих решению проблем, 
+                        удовлетворению потребностей клиентов и являющихся предметом гордости для моей компании.</p>
+                </div>
+                <div class="spanish" hidden>
+                <p><span>Hola, mi nombre es Braddy Ivan Jimenez Morales.</span> Soy un Ingeniero informatico, especializado en desarrollo 
+                    de aplicaciones-web con amplios conocimientos en front-end y back-end, desarrollados a través de 
+                    proyectos propios. Busco desarrollar mi carrera, contribuyendo con mis habilidades en PHP, NodeJs y 
+                    Bases de Datos para lograr diseños finales que satisfagan las necesidades y exigencias de los clientes. </p>
+                <p> Mi amplia experiencia como docente con una maestria en ciencias Fisicas me ha permitido desarrollar mis 
+                    aptitudes en el razonamiento analitico, la solucion de problemas, la comunicacion y la autopreparacion. Mi 
+                    labor como investigador universitario me ha brindado la posibilidad de incursionar en el desarrollado de 
+                    aplicaciones desktop para la investigacion cientifica y el procesamiento de datos experimentales en mi labor 
+                    investigativa. Tengo experiencia en lenguajes de programacion como C++, Java, Python, etc. Mi participacion 
+                    en proyectos internacionale me han brindado experiencia para el trabajo en equipos multidisciplinarios y en 
+                    diferentes entornos laborales. Me he desempe&ntilde;ado en cargos de Jefe de departamento lo cual ha 
+                    contribuido a mejorar mi experiencia en la resolucion de conflictos y el liderazgo.Me considero una persona 
+                    responsable, honesta, sociable y leal a mi entorno de trabajo. </p>                
+                <p>Mi titulacion como ingeniero informatico me ha permitido ampliar mis horizontes y me gustaria trabajar en una 
+                    empresa que impulse mi mi conocimiento, mi crecimiento profesional y a crear productos informaticos de 
+                    vanguardia optimos y eficientes que contribuyan a la solucion de problemas y a la satisfaccion del cliente y 
+                    que sean un motivo de orgullo para mi empresa.</p>
+                </div>
             <div class="fila">
                 <!-- datos personales -->
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3><span class="english">Personal Data</span>
+                        <span class="ruso" hidden>Персональные данные</span></h3>
                     <ul>                        
                         <li>
-                            <strong>Teléfono</strong>
-                            +79991626540, +5351169904
+                            <strong>
+                                <span class="english">Phone</span>
+                                <span class="ruso" hidden>Телефон</span>
+                            </strong>
+                            +79991626540
                         </li>
                         <li>
-                            <strong>Email</strong>
+                            <strong>
+                                <span class="english">Email</span>
+                                <span class="ruso" hidden>Э-Почта</span>
+                            </strong>
                             bradyjimenez76@gmail.com
                         </li>
                         <li>
-                            <strong>Website</strong>
-                            www.example.com
+                            <strong>
+                                <span class="english">Website</span>
+                                <span class="ruso" hidden>Веб-Сайт</span>
+                            </strong>
+                            https://bradyivan.github.io
                         </li>
                         <li>
-                            <strong>Dirección</strong>
-                            
-                        </li>
-                        <li>
-                            <strong>Cargo</strong>
-                            <span>FREELANCE</span>
-                        </li>
+                            <strong>
+                                <span class="english">Address</span>
+                                <span class="ruso" hidden>Адрес</span></strong>
+                            Респ. Татарстан, г. Казань, ул. Белиского 12/8, кв. 28
+                        </li>                        
                     </ul>
                 </div>
 
@@ -105,41 +174,39 @@
                     <h3>Intereses</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
+                            <i class="fa-solid fa-book"></i>
+                            <span class="english">BOOKS</span>
+                            <span class="ruso" hidden>КНИГИ</span>                            
                         </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
-                        </div>                        
                         <div class="interes">
                             <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>LIBROS</span>
+                            <span class="english">SPORT</span>
+                            <span class="ruso" hidden>СПОРТ</span>                            
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
+                            <span class="english">CARS</span>
+                            <span class="ruso" hidden>МАШИНИ</span>
+                        </div>                        
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span class="english">MUSIC</span>
+                            <span class="ruso" hidden>МУЗЫКА</span>                            
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
-                        </div>
-                        
+                            <i class="fa-solid fa-plane"></i> 
+                            <span class="english">TRAVEL</span>
+                            <span class="ruso" hidden>ПОЕЗДКИ</span>                                                       
+                        </div>                        
                     </div>
                 </div>
             </div>
             <button>
                 <a href="https://cvapp.es/r/0XPMTmeLd">
-                    Descargar CV <i class="fa-solid fa-download"></i></a>
-                <span class="overlay"></span>
+                    <span class="english">Download</span>
+                    <span class="ruso" hidden>Скачать</span>
+                    <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span></a>
             </button>
         </div>
     </section>
@@ -147,11 +214,13 @@
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Habilidades</h2>
+            <h2><span class="english">Skills</span>
+                <span class="ruso" hidden>Навыки</span></h2>
             <div class="fila">
                 <!-- Technical Skill -->
                 <div class="col">
-                    <h3>T&eacute;cnicas</h3>
+                    <h3><span class="english">Technical</span>
+                        <span class="ruso" hidden>Технические</span></h3>
                     <div class="skill">
                         <span>Javascript</span>
                         <div class="barra-skill">
@@ -169,7 +238,10 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Base de Datos</span>
+                        <span>
+                            <span class="english">Data Base</span>                        
+                            <span class="ruso" hidden>База Данных</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>95%</span>
@@ -195,9 +267,13 @@
                 </div>
                 <!-- Professional Skills -->
                 <div class="col">
-                    <h3>Profesionales</h3>
+                    <h3><span class="english">Individuals</span>
+                        <span class="ruso" hidden>Личные</span></h3>
                     <div class="skill">
-                        <span>Comunicación</span>
+                        <span>
+                            <span class="english">Еmotional intelligence</span>                        
+                            <span class="ruso" hidden>Эмоциональный интеллект</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>90%</span>
@@ -205,7 +281,10 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Trabajo en Equipo</span>
+                        <span>
+                            <span class="english">Team work</span>                        
+                            <span class="ruso" hidden>Работа в команде</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>95%</span>
@@ -213,7 +292,10 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Resilencia</span>
+                        <span>
+                            <span class="english">Problem-solving</span>                        
+                            <span class="ruso" hidden>Решение-проблем</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>95%</span>
@@ -221,18 +303,24 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Superaci&oacute;n</span>
+                        <span>
+                            <span class="english">Self-improvement</span>                        
+                            <span class="ruso" hidden>Cамосовершенствование</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>80%</span>
+                                <span>95%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Administraci&oacute;n de Proyectos</span>
+                        <span>
+                            <span class="english">Critical thinking</span>                        
+                            <span class="ruso" hidden>Критическое мышление</span> 
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>80%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
@@ -243,35 +331,47 @@
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Idiomas</h2>
+            <h2><span class="english">Languages</span>                        
+                <span class="ruso" hidden>Языки</span></h2>
             <div class="fila">
                 <!-- Technical Skill -->
                 <div class="col">
-                    <h3>Espa&ntilde;ol</h3>
+                    <h3><span class="english">Spanish</span>                        
+                        <span class="ruso" hidden>Испанский</span></h3>
                     <div class="skill">
-                        <span>Nativo</span>
+                        <span>
+                            <span class="english">Native</span>                        
+                            <span class="ruso" hidden>Родной</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>C2</span>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>                    
                 </div>
                 <!-- Professional Skills -->
                 <div class="col">
-                    <h3>Ruso</h3>
+                    <h3><span class="english">Russian</span>                        
+                        <span class="ruso" hidden>Русский</span></h3>
                     <div class="skill">
-                        <span>Intermedio</span>
+                        <span>
+                            <span class="english">intermediate</span>                        
+                            <span class="ruso" hidden>Средний</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>B1</span><!-- equivalente a ТРКИ 1 -->
                             </div>
                         </div>
                     </div>
-                    <h3>Ingles</h3>
+                    <h3><span class="english">English</span>                        
+                        <span class="ruso" hidden>Английский</span></h3>
                     <div class="skill">
-                        <span>Intermedio</span>
+                        <span>
+                            <span class="english">intermediate</span>                        
+                            <span class="ruso" hidden>Средний</span>
+                        </span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>B2</span>
@@ -286,12 +386,15 @@
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Curriculum</h2>
+            <h2><span class="english">Curriculum</span>                        
+                <span class="ruso" hidden>Резюме</span></h2>
             <div class="fila">
                 <div class="col izquierda">
-                    <h3>Educación</h3>
+                    <h3><span class="english">Education</span>                        
+                        <span class="ruso" hidden>Образование</span></h3>
                     <div class="item izq">
-                        <h4>Licenciatura en F&iacute;sica</h4>
+                        <h4><span class="english">Bachelor's degree in physics</span>                        
+                            <span class="ruso" hidden>Диплом по физике</span></h4>
                         <span class="casa">Universidad de Oriente (UO)</span>
                         <span class="fecha">1995 - 2000</span>
                         <p>Tema de Ivestigaci&oacute;n: Caracterizaci&oacute;n Termodin&aacute;mica Aumatizada de la Atmosfera. Software en MATLAB para la obtenci&oacute;n de variables termodin&aacute;micas 

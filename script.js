@@ -32,7 +32,7 @@ function efectoHabilidades(){
         habilidades[8].classList.add("superacion");
         habilidades[9].classList.add("proyect");
         habilidades[10].classList.add("espanol");
-        habilidades[11].classList.add("ruso");
+        habilidades[11].classList.add("ruso1");
         habilidades[12].classList.add("ingles");
     }
 }
@@ -42,3 +42,16 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+const idioma1 = document.getElementById("english");
+const idioma2 = document.getElementById("ruso");
+const collEnglish = document.getElementsByClassName("english");
+const collSpanish = document.getElementsByClassName("ruso");
+idioma1.addEventListener("click",()=>{        
+    for(let item of collEnglish) item.hidden = false;           
+    for(let item of collSpanish) item.hidden = true;  
+});
+idioma2.addEventListener("click",()=>{        
+    for(let item of collEnglish) item.hidden = true;           
+    for(let item of collSpanish) item.hidden = false;  
+});
