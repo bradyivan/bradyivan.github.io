@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 *{
     box-sizing: border-box;
-    font-family: 'Work Sans';
+    font-family: 'Arial';
     margin: 0;
     border: 2px;
     padding: 0;
@@ -14,6 +14,17 @@ html{
 p {
     text-align: justify;
 }
+
+.english{
+    font-family: 'Arial';
+
+}
+
+.ruso{
+    font-family: 'Arial';
+
+}
+
 /* MENU */
 .contenedor-header{
     background: #0d3a53;
