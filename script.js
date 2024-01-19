@@ -54,4 +54,8 @@ idioma1.addEventListener("click",()=>{
 idioma2.addEventListener("click",()=>{        
     for(let item of collEnglish) item.hidden = true;           
     for(let item of collSpanish) item.hidden = false;  
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> a97ab9512b74a1a182c9afcc39815f7ab545f5b7

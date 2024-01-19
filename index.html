@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es,">
 <head>
@@ -593,4 +594,672 @@
 
     <script src="script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es,">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">                
+                <div>
+                    <a href="#"> Brady</a>
+                </div>   
+                <button id="english">english</button>            
+                <button id="ruso">ruso</button>             
+            </div>
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">
+                        <span class="english">START</span><span class="ruso" hidden>НАЧАЛО</span></a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">
+                        <span class="english">ABOUTH ME</span><span class="ruso" hidden>ОБО МНЕ</span></a></li>
+                    <li><a href="#skills" onclick="seleccionar()">
+                        <span class="english">SKILLS</span><span class="ruso" hidden>НАВЫКИ</span></a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">
+                        <span class="english">CURRICULUM</span><span class="ruso" hidden>РЕЗЮМЕ</span></a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">
+                        <span class="english">PORTFOLIO</span><span class="ruso" hidden>ПРОЕКТЫ</span></a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">
+                        <span class="english">CONTACTS</span><span class="ruso" hidden>КОНТАКТЫ</span></a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img-tit">
+                <div class="contenedor-img">
+                    <img src="img/brady.png" alt="">
+                </div>
+                <div class="contenedor-titulos">
+                    <div class="redes">
+                        <a href="https://www.facebook.com/profile.php?id=100013480719637&mibextid=nW3QTL"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/braddy-iv%C3%A1n-jimenez-morales-a26236204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4ybgls2tQNiIaX0WcGpQRQ%3D%3D"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/bradyivan"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div>
+                        <h1><span class="english">Braddy I. Jimenez Morales</span>
+                            <span class="ruso" hidden>Брадди Иван Хименес Моралес</span></h1>
+                        <h2><span class="english">Informatic Engineer/ MSc. Physics</span>
+                            <span class="ruso" hidden>Компютерный Инженер/ Мастер Физика</span></h2>
+                        <h2><span class="english">Fullstack-developer</span>
+                            <span class="ruso" hidden>Веб-программист</span></h2>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2><span class="english">About me</span>
+                <span class="ruso" hidden>Обо Мне</span></h2>
+                <div class="english">
+                    <p><span>Hi, I'm Braddy Ivan Jimenez Morales.</span> I am a computer engineer, specialized in 
+                        web-application development with extensive knowledge in front-end and back-end, developed 
+                        through my own projects. I am looking to develop my career, contributing with my skills in 
+                        PHP, NodeJs and Databases to achieve final designs that meet the needs and demands of 
+                        customers.</p>
+                    <p>My teaching experience with a Master's degree in Physics has allowed me to develop my skills 
+                        in analytical reasoning, problem solving, communication and self-preparation. My work as a 
+                        university researcher has given me the possibility to dabble in the development of desktop 
+                        applications for scientific research and experimental data processing in my research work. I 
+                        have experience in programming languages such as C++, Java, JavaScript, Python, etc. My 
+                        participation in international projects has given me experience in working in multidisciplinary 
+                        teams and in different work environments. I have worked as a department head which has 
+                        contributed to improve my experience in conflict resolution and leadership. I consider myself a 
+                        responsible, honest, sociable and loyal person to my work environment.</p>
+                    <p>My degree as a computer engineer has allowed me to expand my horizons and I would like to work in 
+                        a company that promotes my knowledge, my professional growth and to create optimal and efficient 
+                        cutting-edge computer products that contribute to problem solving and customer satisfaction and 
+                        that are a source of pride for my company.</p>
+                </div>
+                <div class="ruso" hidden>
+                    <p><span>Привет, меня зовут Брадди Иван Хименес Моралес.</span> Я компьютерный инженер, специализирующийся на 
+                        разработке веб-приложений, с обширными знаниями в области фронтенда и бэкенда, развитыми 
+                        благодаря моим собственным проектам. Я стремлюсь развивать свою карьеру, используя свои навыки 
+                        в PHP, NodeJs и базах данных для достижения желаемого результата, отвечающего потребностям и 
+                        запросам клиентов.</p>
+                    <p>Мой длительный опыт преподавания и степень магистра по физике позволили мне развить навыки 
+                        аналитического мышления, решения проблем, общения и самоподготовки. Работа в качестве научного 
+                        сотрудника университета дала мне возможность заниматься разработкой десктоп-приложений для 
+                        научных исследований и обработки экспериментальных данных в своей научной работе. У меня есть 
+                        опыт работы с такими языками программирования, как C++, Java, JavaScript, Python и др. Участие 
+                        в международных проектах дало мне опыт работы в междисциплинарных командах и в различных рабочих 
+                        условиях. Я работал руководителем отдела, что способствовало повышению моего опыта в разрешении 
+                        конфликтов и лидерстве, я считаю себя ответственным, честным, коммуникабельным и лояльным к 
+                        своему рабочему окружению человеком.</p>
+                    <p>Мой диплом компьютерного инженера позволила мне расширить свой кругозор, и я хотел бы работать 
+                        в компании, которая способствует расширению моих знаний, профессиональному росту и созданию 
+                        оптимальных и эффективных современных компьютерных продуктов, способствующих решению проблем, 
+                        удовлетворению потребностей клиентов и являющихся предметом гордости для моей компании.</p>
+                </div>
+                <div class="spanish" hidden>
+                <p><span>Hola, mi nombre es Braddy Ivan Jimenez Morales.</span> Soy un Ingeniero informatico, especializado en desarrollo 
+                    de aplicaciones-web con amplios conocimientos en front-end y back-end, desarrollados a través de 
+                    proyectos propios. Busco desarrollar mi carrera, contribuyendo con mis habilidades en PHP, NodeJs y 
+                    Bases de Datos para lograr diseños finales que satisfagan las necesidades y exigencias de los clientes. </p>
+                <p> Mi amplia experiencia como docente con una maestria en ciencias Fisicas me ha permitido desarrollar mis 
+                    aptitudes en el razonamiento analitico, la solucion de problemas, la comunicacion y la autopreparacion. Mi 
+                    labor como investigador universitario me ha brindado la posibilidad de incursionar en el desarrollado de 
+                    aplicaciones desktop para la investigacion cientifica y el procesamiento de datos experimentales en mi labor 
+                    investigativa. Tengo experiencia en lenguajes de programacion como C++, Java, Python, etc. Mi participacion 
+                    en proyectos internacionale me han brindado experiencia para el trabajo en equipos multidisciplinarios y en 
+                    diferentes entornos laborales. Me he desempe&ntilde;ado en cargos de Jefe de departamento lo cual ha 
+                    contribuido a mejorar mi experiencia en la resolucion de conflictos y el liderazgo.Me considero una persona 
+                    responsable, honesta, sociable y leal a mi entorno de trabajo. </p>                
+                <p>Mi titulacion como ingeniero informatico me ha permitido ampliar mis horizontes y me gustaria trabajar en una 
+                    empresa que impulse mi mi conocimiento, mi crecimiento profesional y a crear productos informaticos de 
+                    vanguardia optimos y eficientes que contribuyan a la solucion de problemas y a la satisfaccion del cliente y 
+                    que sean un motivo de orgullo para mi empresa.</p>
+                </div>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3><span class="english">Personal Data</span>
+                        <span class="ruso" hidden>Персональные данные</span></h3>
+                    <ul>                        
+                        <li>
+                            <strong>
+                                <span class="english">Phone</span>
+                                <span class="ruso" hidden>Телефон</span>
+                            </strong>
+                            +79991626540
+                        </li>
+                        <li>
+                            <strong>
+                                <span class="english">Email</span>
+                                <span class="ruso" hidden>Э-Почта</span>
+                            </strong>
+                            bradyjimenez76@gmail.com
+                        </li>
+                        <li>
+                            <strong>
+                                <span class="english">Website</span>
+                                <span class="ruso" hidden>Веб-Сайт</span>
+                            </strong>
+                            https://bradyivan.github.io
+                        </li>
+                        <li>
+                            <strong>
+                                <span class="english">Address</span>
+                                <span class="ruso" hidden>Адрес</span></strong>
+                            Респ. Татарстан, г. Казань, ул. Белиского 12/8, кв. 28
+                        </li>                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3><span class="english">Hobbies</span>
+                        <span class="ruso" hidden>Хобби</span></h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span class="english">BOOKS</span>
+                            <span class="ruso" hidden>КНИГИ</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span class="english">SPORT</span>
+                            <span class="ruso" hidden>СПОРТ</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="english">CARS</span>
+                            <span class="ruso" hidden>МАШИНИ</span>
+                        </div>                        
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span class="english">MUSIC</span>
+                            <span class="ruso" hidden>МУЗЫКА</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i> 
+                            <span class="english">TRAVEL</span>
+                            <span class="ruso" hidden>ПОЕЗДКИ</span>                                                       
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="https://cvapp.es/r/0XPMTmeLd">
+                    <span class="english">Download</span>
+                    <span class="ruso" hidden>Скачать</span>
+                    <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span></a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2><span class="english">Skills</span>
+                <span class="ruso" hidden>Навыки</span></h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3><span class="english">Technical</span>
+                        <span class="ruso" hidden>Технические</span></h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>
+                            <span class="english">Data Base</span>                        
+                            <span class="ruso" hidden>База Данных</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3><span class="english">Individuals</span>
+                        <span class="ruso" hidden>Личные</span></h3>
+                    <div class="skill">
+                        <span>
+                            <span class="english">Еmotional intelligence</span>                        
+                            <span class="ruso" hidden>Эмоциональный интеллект</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>
+                            <span class="english">Team work</span>                        
+                            <span class="ruso" hidden>Работа в команде</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>
+                            <span class="english">Problem-solving</span>                        
+                            <span class="ruso" hidden>Решение-проблем</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>
+                            <span class="english">Self-improvement</span>                        
+                            <span class="ruso" hidden>Cамосовершенствование</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>
+                            <span class="english">Critical thinking</span>                        
+                            <span class="ruso" hidden>Критическое мышление</span> 
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2><span class="english">Languages</span>                        
+                <span class="ruso" hidden>Языки</span></h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3><span class="english">Spanish</span>                        
+                        <span class="ruso" hidden>Испанский</span></h3>
+                    <div class="skill">
+                        <span>
+                            <span class="english">Native</span>                        
+                            <span class="ruso" hidden>Родной</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>C2</span>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3><span class="english">Russian</span>                        
+                        <span class="ruso" hidden>Русский</span></h3>
+                    <div class="skill">
+                        <span>
+                            <span class="english">intermediate</span>                        
+                            <span class="ruso" hidden>Средний</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>B1</span><!-- equivalente a ТРКИ 1 -->
+                            </div>
+                        </div>
+                    </div>
+                    <h3><span class="english">English</span>                        
+                        <span class="ruso" hidden>Английский</span></h3>
+                    <div class="skill">
+                        <span>
+                            <span class="english">intermediate</span>                        
+                            <span class="ruso" hidden>Средний</span>
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>B2</span>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2><span class="english">Curriculum</span>                        
+                <span class="ruso" hidden>Резюме</span></h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3><span class="english">Education</span>                        
+                        <span class="ruso" hidden>Образование</span></h3>
+                    <div class="item izq">
+                        <h4><span class="english">Informatic Engineer </span>                        
+                            <span class="ruso" hidden>Компютерный Инженер</span></h4>
+                        <span class="casa">
+                            <span class="english">University of Camaguey (UC).</span>                        
+                            <span class="ruso" hidden>Университет Камагуэя.</span>
+                        </span>
+                        <span class="fecha">2014 - 2017 / 2021 - 2023</span>
+                        <p>
+                            <span class="english">"Cum Laude" Diploma. Due to satisfactory academic results and 
+                                contribution to research, he was exempted from the culmination work of studies.
+                            </span>                        
+                            <span class="ruso" hidden>Диплом «с отличием». В связи с удовлетворительными 
+                                академическими результатами и вкладом в научные исследования он был освобожден от 
+                                кульминационной работы учебы.</span>
+                            </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>
+                            <span class="english">Master's Degree in Physics</span>                        
+                            <span class="ruso" hidden>Диплом Магистра</span></h4>
+                        <span class="casa">
+                            <span class="english">Kazan Federal University (KFU)</span>                        
+                            <span class="ruso" hidden>Казанский Федеральный Университет (КФУ)</span></span>
+                        <span class="fecha">2018 - 2020</span>
+                        <p>
+                            <span class="english">Institut of Physics. Qualification works in the topic "Experimental  Characterization of magnetic properties for 
+                                epitaxial heterostructures as Pd<sub>0.92</sub>Fe<sub>0.08</sub>/Ag/Pd<sub>0.96</sub>Fe<sub>0.04</sub> y Pd<sub>0.92</sub>Fe<sub>0.08</sub>/Pd<sub>0.96</sub>Fe<sub>0.04</sub>".
+                            </span>                        
+                            <span class="ruso" hidden>Институт Физики. Диплонная работа "Экспериментальное исследование магнитных свойств 
+                                эпитаксиальных гетероструктур Pd<sub>0.92</sub>Fe<sub>0.08</sub>/Ag/Pd<sub>0.96</sub>Fe<sub>0.04</sub> y Pd<sub>0.92</sub>Fe<sub>0.08</sub>/Pd<sub>0.96</sub>Fe<sub>0.04</sub>".
+                            </span>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Idioma Ruso</h4>
+                        <span class="casa">
+                            <span class="english">Kazan Federal University (KFU)</span>
+                            <span class="ruso" hidden>Казанский Федеральный Университет (КФУ)</span>
+                        </span>
+                        <span class="fecha">2017 - 2018</span>                        <p>
+                            <span class="english">Russian language. Preparatory Faculty for international 
+                                students, engineering-technical orientation</span>
+                            <span class="ruso" hidden>Русский Язык. Подготовительный Факультет для иностранных 
+                                учащихся, инженерно-техническая направленность</span>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>                    
+                    <div class="item izq">
+                        <h4><span class="english">Bachelor's degree in physics</span>                        
+                            <span class="ruso" hidden>Диплом по физике</span></h4>
+                        <span class="casa">
+                            <span class="english">University of Oriente (UO) </span>                        
+                            <span class="ruso" hidden>Университет Ориенте </span>
+                        </span>
+                        <span class="fecha">1995 - 2000</span>
+                        <p>
+                            <span class="english">Research Topic: Automated Thermodynamic Characterization 
+                                of the Atmosphere. MATLAB software for modeling thermodynamic variables of the atmosphere.</span>                        
+                            <span class="ruso" hidden>Тема исследования: Автоматизированное термодинамическое 
+                                описание атмосферы. Программа MATLAB для моделирования термодинамических параметров атмосферы.</span>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>
+                        <span class="english">Work experience</span>                        
+                        <span class="ruso" hidden>Опыт работы</span>
+                    </h3>
+                    <div class="item der">
+                        <h4>
+                            <span class="english">Professor</span>                        
+                            <span class="ruso" hidden>Профессор</span>
+                        </h4>
+                        <span class="casa">
+                            <span class="english">University of Camaguey (UC).</span>                        
+                            <span class="ruso" hidden>Университет Камагуэя.</span>
+                        </span>
+                        <span class="fecha">2001 - 2012</span>
+                        <p>
+                            <span class="english">Faculty of Electromechanics.</span>                        
+                            <span class="ruso" hidden>Факультет электромеханики.</span>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>
+                            <span class="english">Web Master</span>                        
+                            <span class="ruso" hidden>Веб-мастер</span></h4>
+                        <span class="casa">
+                            <span class="english">University of Camaguey (UC).</span>                        
+                            <span class="ruso" hidden>Университет Камагуэя.</span>
+                        </span>
+                        <span class="fecha">2004-2006</span>
+                        <p>
+                            <span class="english">Faculty of Electromechanics.</span>                        
+                            <span class="ruso" hidden>Факультет электромеханики.</span>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>  
+                    <div class="item der">
+                        <h4><span class="english">Professor</span>                        
+                            <span class="ruso" hidden>Профессор</span>
+                        </h4>
+                        <span class="casa">
+                            <span class="english">University of Camaguey (UC).</span>                        
+                            <span class="ruso" hidden>Университет Камагуэя.</span>
+                        </span>
+                        <span class="fecha">2012 - 2023</span>
+                        <p>
+                            <span class="english">Faculty of Computer Science and Exact Sciences.</span>                        
+                            <span class="ruso" hidden>Факультет компьютерных наук и точных наук.</span>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>  
+                    <div class="item der">
+                        <h4><span class="english">Researcher</span>                        
+                            <span class="ruso" hidden>Следователь</span></h4>
+                        <span class="casa">
+                            <span class="english">University of Oviedo (Uniovi).</span>                        
+                            <span class="ruso" hidden>Университет Овьедо</span>
+                        </span>
+                        <span class="fecha">2010</span>
+                        <p>
+                            <span class="english">Project: "Multidisciplinary DrSc training in materials physics for 
+                                cancer research". Research stay at the University of Oviedo, Principality of Asturias, 
+                                Spain. Project A/025405/09, financed by the AECID, year: 2010. Coordinator: DrSc. José 
+                                Angel García Díaz, tutor: DrSc. Montserrat Rivas Ardisana and DrSc. Pedro Antonio 
+                                Mariño Castellanos.</span>                        
+                            <span class="ruso" hidden>Проект: «Мультидисциплинарная подготовка докторов наук по 
+                                физике материалов для исследований рака». Научно-исследовательская стажировка в 
+                                Университете Овьедо, Княжество Астурия, Испания. Проект A/025405/09, финансируемый 
+                                AECID, год: 2010. Координатор: доктор технических наук. Хосе Анхель Гарсиа Диас, 
+                                преподаватель: доктор наук. Монтсеррат Ривас Ардисана и доктор наук. Педро Антонио 
+                                Мариньо Кастельянос.</span>
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>API Node</h3>
+                        <p>Backend</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Kazan, Republica de Tatarstan
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +7 999 1626540, +53 51169904  
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: bradyjimenez76@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+>>>>>>> a97ab9512b74a1a182c9afcc39815f7ab545f5b7
 </html>

@@ -36,20 +36,30 @@ p {
     display: flex;
 }
 
+<<<<<<< HEAD
 .contenedor-header header .logo > span a {      
     text-decoration: none;
 }
 
 .contenedor-header header .logo > span a span{  
+=======
+.contenedor-header header .logo > div a{  
+>>>>>>> a97ab9512b74a1a182c9afcc39815f7ab545f5b7
     font-family: 'Righteous';
     font-size: 36px;
     color: #1CB698;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 .contenedor-header header .logo > span button{  
     background-color: #0d3a53;
     padding: 0px 10px 0px 10px;
+=======
+.contenedor-header header .logo > button{  
+    background-color: #0d3a53;
+    padding: 10px;
+>>>>>>> a97ab9512b74a1a182c9afcc39815f7ab545f5b7
     color: #1CB698;
     text-decoration: none;
 }
@@ -98,7 +108,10 @@ p {
     margin: auto;
     text-align: center;
     border-radius: 40px;
+<<<<<<< HEAD
     
+=======
+>>>>>>> a97ab9512b74a1a182c9afcc39815f7ab545f5b7
 }
 
 .inicio .contenido-banner .contenedor-img-tit{
@@ -801,3 +814,7 @@ footer .arriba{
         width: 100%;
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a97ab9512b74a1a182c9afcc39815f7ab545f5b7
