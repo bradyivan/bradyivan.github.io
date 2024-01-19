@@ -36,15 +36,20 @@ p {
     display: flex;
 }
 
-.contenedor-header header .logo > div a{  
+.contenedor-header header .logo > span a {      
+    text-decoration: none;
+}
+
+.contenedor-header header .logo > span a span{  
     font-family: 'Righteous';
     font-size: 36px;
     color: #1CB698;
     text-decoration: none;
 }
-.contenedor-header header .logo > button{  
+
+.contenedor-header header .logo > span button{  
     background-color: #0d3a53;
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
     color: #1CB698;
     text-decoration: none;
 }
