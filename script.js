@@ -47,11 +47,15 @@ const idioma1 = document.getElementById("english");
 const idioma2 = document.getElementById("ruso");
 const collEnglish = document.getElementsByClassName("english");
 const collSpanish = document.getElementsByClassName("ruso");
-idioma1.addEventListener("click",()=>{        
+idioma1.addEventListener("click",()=>{ 
+    idioma1.hidden = true;  
+    idioma2.hidden = false;     
     for(let item of collEnglish) item.hidden = false;           
     for(let item of collSpanish) item.hidden = true;  
 });
 idioma2.addEventListener("click",()=>{        
+    idioma1.hidden = false;
+    idioma2.hidden = true;
     for(let item of collEnglish) item.hidden = true;           
     for(let item of collSpanish) item.hidden = false;  
 });
