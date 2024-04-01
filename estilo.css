@@ -116,6 +116,8 @@ p {
     display: flex;
     max-width: 850px;    
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .inicio .contenido-banner .contenedor-img-tit .contenedor-titulos{
@@ -123,6 +125,8 @@ p {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .inicio .contenido-banner .contenedor-img-tit .contenedor-img{
@@ -228,7 +232,8 @@ p {
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
+}
+.sobremi .fila .col .contenedor-intereses .interes:hover{
     background-color: #1CB698;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
@@ -501,6 +506,17 @@ p {
     font-weight: bold;
     display: block;
 }
+
+.curriculum .fila .item .casa span a{
+    color: #1CB698;
+    text-decoration: none;    
+}
+
+.curriculum .fila .item .casa span a:hover{
+    color: #e5e90a;    
+    text-decoration: none;    
+}
+
 .curriculum .fila .item .fecha{
     display: block;
     color: #1CB698;
@@ -537,6 +553,7 @@ p {
     right: -47px;
     z-index: 5;
 }
+
 .curriculum .fila .item .conectori .circuloi{
     display: block;
     height: 10px;
