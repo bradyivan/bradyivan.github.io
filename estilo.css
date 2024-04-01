@@ -507,12 +507,12 @@ p {
     display: block;
 }
 
-.curriculum .fila .item .casa span a{
+.curriculum .fila .item .casa span > a{
     color: #1CB698;
     text-decoration: none;    
 }
 
-.curriculum .fila .item .casa span a:hover{
+.curriculum .fila .item .casa span > a:hover{
     color: #e5e90a;    
     text-decoration: none;    
 }
