@@ -152,6 +152,10 @@ p {
     font-size: 20px;
     font-weight: normal;
 }
+.inicio .contenido-banner .contenedor-img-tit .contenedor-titulos h4{
+    font-size: 15px;
+    font-weight: normal;
+}
 .inicio .contenido-banner .contenedor-img-tit .contenedor-titulos .redes a{
     color: #fff;
     display: inline-block;
